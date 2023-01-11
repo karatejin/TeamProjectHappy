@@ -1,0 +1,249 @@
+body{
+    margin: 0;
+    /* display: block; */
+    width: 100%;
+    height: 4080px;
+    background-color: aquamarine;
+}
+
+ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+/* 해더 */
+header{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    background-color: bisque;
+}
+
+.h-nav-bar{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.logohappy{
+    font-size: large;
+}
+.shappy{
+    display:inline-block;
+    margin: -15px 0px 0px 2px;
+    padding: 1px,3px;
+    /* color: #AAAAAA; */
+    font-size: 11px;
+    line-height: 12px;
+    vertical-align: middle;
+}
+.luffy{
+    padding-left: 20px;
+    /* align-items: center; */
+    height: 40px;
+    width: 40px;
+}
+
+.head-lecture-category{
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+    float: left;
+    width: 9%;
+    height: 100%;
+    background-color: darkgoldenrod ;
+}
+
+.head-lecture-category ul{
+    display: none;
+}
+
+
+/* 상단 우측 */
+.nav-bar-right{
+    display: flex;
+    /* position: relative; */
+    width: 25%;
+    height: 100%;
+    
+    margin-left: 55%;
+    background: yellowgreen;
+}
+
+.cart{
+    display: flex;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    color: aqua;
+    border: 1px solid;
+}
+
+.login-btn{
+    display: flex;
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    color: aqua;
+    border: 1px solid;
+}
+
+.sign-up{
+    display: flex;
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    color: aqua;
+    border: 1px solid;
+}
+
+
+
+/* 배너 */
+.swipe-container{
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+    height: 320px;
+    background-color: cornflowerblue;
+}
+
+.swipe-main{
+    width: 75%;
+    height: 100%;
+    background-color: cadetblue;
+}
+
+/* 검색 */
+.search-container{
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+    height: 173px;
+    background-color: coral;
+}
+
+.search-container-content{
+    width: 75%;
+    height: 100%;
+    background-color: yellow;
+}
+
+.search-container-content h1{
+    text-align: center;
+    /* display: block; */
+}
+
+.search-wrapper{
+    display: block;
+    margin-left: 25%;
+    width: 50%;
+    height: 54px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: chocolate;
+}
+
+.m-search-input{
+    display:flex;
+    align-items: center;
+    width: 49%;
+    border: none;
+    outline: none;
+    padding-top: 15px;
+    padding-left: 20px;
+    background:none;
+    font-size: 20px;
+}
+
+.m-search-input-submit{
+    display: flex;
+    float: right;
+    padding: 0, 20px, 20px, 0;
+    border: none;
+    background: none;
+    font-size: 10px;
+}
+
+/* 아이콘 목록 */
+.lecture-icon-list{
+    display: flex;
+    justify-content: center;
+    height: 141px;
+    background: violet;
+}
+
+.icon-list-wrapper{
+    display: flex;  
+    width: 75%;
+    height: 100%;
+    align-items: center;
+    background: brown;
+}
+
+.icon-list-wrapper a{
+    display: block;
+    
+}
+
+
+.icon-list-wrapper li{
+    display: flex;
+    justify-content: center;
+    margin: 0 30px ;
+    padding: 0 30px;
+    border : 0;
+    float: left;
+}
+
+.icon-list-card{
+    width: 90px;
+    height: 90px;
+    background-color: antiquewhite;
+}
+
+
+.front-end-icon{
+    display: block;
+    padding-left: 20px;
+    width: 34px;
+    height: 34px;
+}
+
+.img-title{
+    display: flex;
+    height: 14px;
+}
+
+.img-title p{
+    display: flex;
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+/* 강의 목록 */
+
+.course-dashboard{
+    display: flex;
+    justify-content: center;
+    height: 454px;
+    background-color: burlywood;
+}
+
+.course-dashboard-list{
+    width: 75%;
+    height: 100%;
+    background: tomato;
+}
