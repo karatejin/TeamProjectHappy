@@ -34,6 +34,7 @@ header{
 }
 
 .logohappy{
+    display: flex;
     font-size: large;
 }
 .shappy{
@@ -73,35 +74,35 @@ header{
     /* position: relative; */
     width: 300px;
     height: 100%;
-    
-    margin-left: 62%;
+    margin-left: 60%;
     background: yellowgreen;
 }
 
 .cart{
     display: flex;
+    justify-content: center;
     width: 44px;
     height: 45px;
-    /* padding: 20px; */
+    padding: 20px;
     color: aqua;
     border: 1px solid;
 }
 
 .login_btn{
     display: flex;
-    /* position: relative; */
+    justify-content: center;
     width: 68px;
-    height: 48px;
-    /* padding: 20px; */
+    height: 45px;
+    padding: 20px;
     color: aqua;
     border: 1px solid;
 }
 
 .sign_up{
     display: flex;
-    /* position: relative; */
-    width: auto;
-    height: auto;
+    justify-content: center;
+    width: 70px;
+    height: 45px;
     padding: 20px;
     color: aqua;
     border: 1px solid;
@@ -162,7 +163,6 @@ header{
     width: 49%;
     border: none;
     outline: none;
-    padding-top: 15px;
     padding-left: 20px;
     background:none;
     font-size: 20px;
@@ -170,11 +170,12 @@ header{
 
 .m_search_input_submit{
     display: flex;
-    float: right;
-    padding: 0, 20px, 20px, 0;
+    margin-top: 13px;
+    margin-left: 200px;
     border: none;
     background: none;
-    font-size: 10px;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 /* 아이콘 목록 */
@@ -204,14 +205,18 @@ header{
     justify-content: center;
     margin: 0 30px ;
     padding: 0 30px;
-    border : 0;
+    border : 1px solid;
     float: left;
 }
 
 .icon_list_card{
-    width: 90px;
-    height: 90px;
+    width: 100%;
+    height: 100%;
     background-color: antiquewhite;
+}
+
+.img-title{
+    align-items: center;
 }
 
 
@@ -256,15 +261,57 @@ header{
 }
 
 .course_dashboard_list li{
-    display: flex;
+    display: block;
+    float: left;
     margin-top: 10px;
     margin-left: 20px;
-    width: 300px;
-    height: 80%;
+    width: 200px;
+    height: 90%;
     background-color: aqua;
 }
 
+.course_face{
+    width: 100%;
+    height: 140px;
+}
 
+.course_title{
+    padding: 5px;
+    width: 90%;
+    height: 16px;
+    background-color: cadetblue;
+}
+
+.course_instructor{
+    padding: 5px;
+    
+    width: 90%;
+    height: 14px;
+    background-color: springgreen;
+}
+
+.course_rating{
+    padding: 5px;
+    
+    width: 90%;
+    height: 16px;
+    background-color: burlywood;
+}
+
+.course_price{
+    padding: 5px;
+    
+    width: 90%;
+    height: 16px;
+    background-color: violet;
+}
+
+.course_tag{
+    padding: 5px;
+    width: 90%;
+    height: 16px;
+    background-color: slateblue;
+}
 
 
 
