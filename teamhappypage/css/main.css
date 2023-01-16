@@ -28,7 +28,7 @@ header{
 .h_nav_bar{
     display: flex;
     align-items: center;
-    width: 60%;
+    width: 65%;
     height: 100%;
     background-color: blueviolet;
 }
@@ -37,7 +37,7 @@ header{
 .nav_bar_left{
     display: flex;
     float: left;
-    width: 300px;
+    width: 250px;
     height: 100%;
     background-color: aqua;
 }
@@ -95,9 +95,9 @@ header{
 .nav_bar_right{
     display: flex;
     /* position: relative; */
-    width: 300px;
+    width: 290px;
     height: 100%;
-    margin-left: 47.5%;
+    margin-left: 45.4%;
     background: yellowgreen;
 }
 
@@ -180,7 +180,7 @@ header{
 }
 
 .search_container_content{
-    width: 60%;
+    width: 65%;
     height: 100%;
     background-color: yellow;
 }
@@ -190,7 +190,8 @@ header{
     /* display: block; */
 }
 
-.search_wrapper{
+.search_wrapper{ 
+    /* 컬러 지우지 말것 */
     display: flex;
     margin: 0 25%;
     width: 50%;
@@ -199,7 +200,7 @@ header{
     border-bottom-left-radius: 25px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    background-color: chocolate;
+    background-color: aquamarine
 }
 
 .m_search_input{
@@ -210,7 +211,7 @@ header{
     outline: none;
     padding-left: 20px;
     background:none;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .m_search_input_submit{
@@ -234,7 +235,7 @@ header{
 .icon_list_wrapper{
     display: flex;
     justify-content: space-around;  
-    width: 60%;
+    width: 65%;
     height: 100%;
     align-items: center;
     background: brown;
@@ -294,7 +295,7 @@ header{
 }
 
 .course_dashboard_list{
-    width: 60%;
+    width: 65%;
     height: 100%;
     background: tomato;
 }
