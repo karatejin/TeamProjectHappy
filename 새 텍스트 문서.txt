@@ -1,0 +1,146 @@
+<!-- <div id="box1" class="box">
+                <div>
+                    글자
+                </div>
+                <div>
+                    <img src="images/Business.png" alt="" class="b-img"/>
+                </div>
+            </div>
+            <div id="box2" class="box">
+                <div>
+                    글자
+                </div>
+                <div>
+                    <img src="images/Isometric Illustration 2.png" alt="" class="b-img"/>
+                </div>
+            </div>
+            <div id="box3" class="box">
+                <div>
+                    글자
+                </div>
+                <div>
+                    <img src="/images/Officejob.jpg" alt="" class="b-img"/>
+                </div>
+            </div>
+            <div id="box4" class="box">
+                <div>
+                    글자
+                </div>
+                <div>
+                    <img src="/images/PremiumVector.jpg" alt="" class="b-img"/>
+                </div>
+            </div>
+            <div id="box5" class="box">
+                <div>
+                    글자
+                </div>
+                <div>
+                    <img src="/images/Software Program.jpg" alt="" class="b-img"/>
+                </div>
+            </div> -->
+
+///////////////////////////////////////////
+
+
+ <div className="course_dashboard">
+            <div className="course_dashboard_list"> 
+                <div className="course_dashboard_title">                    
+                    <span>
+                        <h3>프론트엔드</h3>
+                        <p style={{fontSize: "13px"}}>해삐와 함께하는 프론트엔드</p>
+                    </span>
+                </div> 
+                <ul>
+                    <li>
+                    <img src={Course1} alt="" className="course_face"/>
+                        <div className="course_title">
+                            React 완벽가이드
+                        </div>
+                        <div className="course_instructor">
+                            해피코딩
+                        </div>
+                        <div className="course_rating">
+                            4.7
+                        </div>
+                        <div className="course_price">
+                            17000원
+                        </div>
+                        <div className="course_tag">
+                            베스트셀러
+                        </div>
+                    </li>
+                    <li>
+                    <img src={Course2} alt="" className="course_face"/>
+                        <div className="course_title">
+                            React 완벽가이드
+                        </div>
+                        <div className="course_instructor">
+                            해피코딩
+                        </div>
+                        <div className="course_rating">
+                            4.7
+                        </div>
+                        <div className="course_price">
+                            17000원
+                        </div>
+                        <div className="course_tag">
+                            베스트셀러
+                        </div>
+                    </li>
+                    <li>
+                    <img src="/images/exwebfront.png" alt="" className="course_face"/>
+                        <div className="course_title">
+                            React 완벽가이드
+                        </div>
+                        <div className="course_instructor">
+                            해피코딩
+                        </div>
+                        <div className="course_rating">
+                            4.7
+                        </div>
+                        <div className="course_price">
+                            17000원
+                        </div>
+                        <div className="course_tag">
+                            베스트셀러
+                        </div>
+                    </li>
+                    <li>
+                    <img src="/images/exwebfront.png" alt="" className="course_face"/>
+                        <div className="course_title">
+                            React 완벽가이드
+                        </div>
+                        <div className="course_instructor">
+                            해피코딩
+                        </div>
+                        <div className="course_rating">
+                            4.7
+                        </div>
+                        <div className="course_price">
+                            17000원
+                        </div>
+                        <div className="course_tag">
+                            베스트셀러
+                        </div>
+                    </li>
+                    <li>
+                    <img src="/images/exwebfront.png" alt="" className="course_face"/>
+                        <div className="course_title">
+                            React 완벽가이드
+                        </div>
+                        <div className="course_instructor">
+                            해피코딩
+                        </div>
+                        <div className="course_rating">
+                            4.7
+                        </div>
+                        <div className="course_price">
+                            17000원
+                        </div>
+                        <div className="course_tag">
+                            베스트셀러
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
