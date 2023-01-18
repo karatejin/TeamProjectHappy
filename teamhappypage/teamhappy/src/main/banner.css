@@ -64,6 +64,7 @@
     display: block;
     position: absolute;
     margin-top: 20px;
+    text-align: center;
     background-color: #A8DE5D;
     width: 100px;
     height: fit-content;
@@ -79,6 +80,7 @@
     display: block;
     position: absolute;
     margin-top: 20px;
+    text-align: center;
     background-color: #A8DE5D;
     width: 110px;
     height: fit-content;

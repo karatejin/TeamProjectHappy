@@ -1,4 +1,5 @@
 import React from 'react';
+import DropButton from './DropButton'
 
 import Logo from '../Asset/images/logo.png';
 
@@ -13,10 +14,7 @@ function Header(){
                         </a>
                     </div>
                     <div className="head_lecture_category">
-                        <a href="#">강의목록</a>
-                        <ul>
-                            <li></li>
-                        </ul>
+                        <DropButton/>
                     </div>
                 </div>
                     <div className="nav_bar_right">
