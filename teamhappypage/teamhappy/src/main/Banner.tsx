@@ -56,7 +56,7 @@ function Banner() {
                     데이터베이스
                     </div>
               </div>
-                <h1>데이터베이스<br />나에게 맞기시라<br />Vamos!</h1>
+                <h1>데이터베이스<br />나에게 맡기시라<br />Vamos!</h1>
               </div>
               <div className="box_img">
                 <img src={Banner3} alt="" className="b-img" />
