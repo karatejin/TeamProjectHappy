@@ -1,0 +1,20 @@
+
+/* Caoursel arrows */
+
+.slick-prev,
+.slick-next{
+    z-index: 1;
+}
+
+.slick-prev:before,
+.slick-next:before{
+    /* display: c0zontents; */
+    font-size: 40px;
+    color: #175cbe;
+}
+
+.slick-next{
+    padding-right: 35px;
+    /* display: flex; */
+    /* position: absoulte; */
+}
